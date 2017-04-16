@@ -48,9 +48,22 @@ URL: https://code.google.com/p/io-2012-slides
   
     <hgroup>
       <h2>Did you say FITS?</h2>
-	  <h3></h3>
+	  <h3><a href="https://fits.gsfc.nasa.gov/">https://fits.gsfc.nasa.gov/</a></h3>
     </hgroup>
-    <article ><p><code>test test test</code></p>
+    <article >
+	<ul class="build fade">
+	<li>The standard data format used in astronomy 
+	<li>Stands for 'Flexible Image Transport System' 
+	<li>Endorsed by NASA and the International Astronomical Union 
+	<li>Header keywords provide descriptive information about the data
+	<li>Band SeQuential (BSQ) storage format
+	<li>Compatible with PDS archiving constraints
+	<li>Efficient projection (World Coordinate System) description (but for 3D systems)
+	<li>Community driven processing libraries (e.g. astropy)
+    <li><b>The <a href="https://www.vatlib.it/home.php?pag=digitalizzazione&ling=eng">Vatican Library</a> has adopted FITS data format for
+	long-term digital preservation of books and manuscripts!</b></p>
+	</ul>
+	
 	<footer class="logo"></footer></article>
  
 </slide>
@@ -58,11 +71,20 @@ URL: https://code.google.com/p/io-2012-slides
 <slide class="big" >
   
     <hgroup>
-      <h2>Cubes, MEF and tables</h2>
+      <h2>Cubes, tables and MEF</h2>
       <h3></h3>
     </hgroup>
-    <article class="flexbox vtop"><p><img alt="Mobile vs desktop users" src="images/vespa.png" /></p>
+    <article>
+	<ul>
+	<li>2D, 3D (cubes), ..., nD Rasters
+	<li>Binary tables
+	<li>Multi Extension Files (MEF)
+	</ul>
+    <img src="images/MEFgeneric.gif" class="reflect" alt="MEF scheme" title="MEF scheme">
+	<!--img src="images/MEFplanetary.gif" class="build fade"-->
+    <footer class="source">from <a href="http://www.gemini.edu/sciops/data-and-results/data-formats">Gemini data format documentation</a></footer>
 
+	
 	<footer class="logo"></footer></article>
  
 </slide>
