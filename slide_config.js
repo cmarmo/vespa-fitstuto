@@ -2,7 +2,7 @@ var SLIDE_CONFIG = {
   // Slide settings
   settings: {
     title: 'Using FITS in Planetary data',
-    subtitle: 'A first glance using astropy & Co.',
+    subtitle: 'A first glance with astropy & Co.',
     eventInfo: {
     title: '       #vespamap17',
     date: '20/04/2017'
